@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link to FONTS --> 
+    <link rel="stylesheet href="rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <!-- LINK TO STYLESHEET -->
+    <link rel="stylesheet" href="./myStyles.css" />
+    <!-- ./styles/style.css -->
+
+    
+    <!-- Suggestion: -->
+    <title>Upcoming movies search tool</title>
+</head>
+
+<body>
+    <header>
+        <h1>Movies search tool</h2>
+
+        <div class="wrapper-header">
+            <h2>Welcome!</h1>
+
+            <div class="container">
+                
+                <form action="">
+                    <label for="genre">Choose your genre:</label>
+                    
+                    <select name="genre" id="genre">
+                        <option value="28">Action</option>
+                        <option value="12">Adventure</option>
+                        <option value="16">Animation</option>
+                        <option value="35">Comedy</option>
+                        <option value="80">Crime</option>
+                        <option value="99">Documentary</option>
+                        <option value="18">Drama</option>
+                        <option value="10751">Family</option>
+                        <option value="14">Fantasy</option>
+                        <option value="36">History</option>
+                        <option value="27">Horror</option>
+                        <option value="10402">Music</option>
+                        <option value="9648">Mystery</option>
+                        <option value="10749">Romance</option>
+                        <option value="878">Science Fiction</option>
+                        <option value="10770">TV Movie</option>
+                        <option value="53">Thriller</option>
+                        <option value="10752">War</option>
+                        <option value="">Western</option>
+                    </select>
+                </form>
+
+                <h3><span id="chosen-genre">[Your genre here]</span> Movies/TV Shows:</h3>
+            </div><!-- end of "container" div -->
+    </header>
+
+    <main>
+        <div class="wrapper" id="movies">
+            
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h1 {
+    margin: 2rem auto;
+    color: purple;//rgb(238, 217, 30);
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 0;
+    padding: .8rem 0;
+    color: white;
+    background-color: red;//rgba(48, 44, 44, 0.808);
+}
+
+// h3 {
+//     margin: -2rem auto 2rem;
+//     background-color: rgba(255, 255, 255, 0.61);
+//     font-size: 1.5rem;
+//     font-style: italic;
+//     padding: 20px 0;
+// }
