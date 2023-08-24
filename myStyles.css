@@ -259,6 +259,8 @@ img {
     max-width: 100%;
     display: block;
     margin-bottom: 1rem;
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px rgba(102, 125, 138, 01);
 }
 
 body {
