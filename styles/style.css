@@ -270,14 +270,13 @@ body {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   text-align: center;
 }
 
 h1 {
   margin: 2rem auto;
-  color: rgb(238, 217, 30);
+  color: purple;
   font-size: 70px;
   font-weight: bold;
 }
@@ -286,15 +285,7 @@ h2 {
   margin: 0;
   padding: 0.8rem 0;
   color: white;
-  background-color: rgba(48, 44, 44, 0.808);
-}
-
-h3 {
-  margin: -2rem auto 2rem;
-  background-color: rgba(255, 255, 255, 0.61);
-  font-size: 1.5rem;
-  font-style: italic;
-  padding: 20px 0;
+  background-color: red;
 }
 
 .wrapper {
@@ -304,82 +295,13 @@ h3 {
   /* border: black solid; */
 }
 
-button {
-  margin-left: 40rem;
-  margin-top: -5rem;
-  padding: 10px 40px;
-  border-color: orangered;
-  background-color: orange;
-  border-width: 8px;
-  border-radius: 10%;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-}
-
 header {
-  height: 95vh;
-  background-image: url(/assets/header-img3.jpg);
+  height: 80vh;
+  background-color: green;
   background-size: cover;
   background-repeat: no-repeat;
 }
-header form {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: -22rem;
-  -ms-flex-item-align: center;
-      align-self: center;
-}
 
-.genreSelection {
-  background-color: rgba(241, 238, 238, 0.774);
-  padding: 2rem 0 1rem;
-  margin-top: -1rem;
-}
-
-.genresList {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  height: 15rem;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -ms-flex-item-align: center;
-      align-self: center;
-}
-
-.boxAndGenre {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin: 10px;
-  font-size: 20px;
-  /* background-color: white; */
-  width: 12rem;
-}
-
-label {
-  padding-left: 10px;
+select {
+  padding: 2rem;
 }
