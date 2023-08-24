@@ -344,5 +344,10 @@ main {
     flex-direction: column-reverse;
 }
 
+select {
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */
