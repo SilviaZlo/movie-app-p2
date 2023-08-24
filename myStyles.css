@@ -258,6 +258,7 @@ html {
 img {
     max-width: 100%;
     display: block;
+    margin-bottom: 1rem;
 }
 
 body {
@@ -294,7 +295,7 @@ h3 {
 }
 
 h4, p {
-    margin: 0rem;
+    margin: .2rem;
 }
 
 .wrapper-header {
@@ -336,12 +337,15 @@ main {
 #movies {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
+    /* width: 45%; */
 }
 
 .movie {
     display: flex;
     flex-direction: column-reverse;
+    width: 30%;
+    margin: 2rem 1rem 1rem 1rem;
 }
 
 select {
